@@ -38,7 +38,7 @@ Antes de começar, certifique-se de ter o **Bun** instalado. Caso não tenha, si
  Acesse `http://localhost:3000/api-docs` para ver a documentação da API.
 
 ## Estrutura do projeto
-    ```
+```bash
 ├── src
 │   ├── routes
 │   │   └── example.route.ts   # Rotas da API
