@@ -6,8 +6,11 @@ import exampleRouter from './routes/example.route';
 const app = express();
 // Middleware para JSON
 app.use(express.json());
-// Swagger UI
-app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+// Swagger UI - Apenas em ambiente de desenvolvimento
+if (process.env.NODE_ENV !== 'production') {
+    app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+}
+
 // Rotas
 app.get('/', (req, res) => {
     res.send({ message: 'API is running!' });
