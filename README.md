@@ -21,8 +21,8 @@ Antes de começar, certifique-se de ter o **Bun** instalado. Caso não tenha, si
 
 1. Clone este repositório:
 ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+   git clone https://github.com/MattheusAlfaia/api_rest_node
+   cd api_rest_node
 ```
 
 2 - Instale as dependências:
@@ -35,7 +35,7 @@ Antes de começar, certifique-se de ter o **Bun** instalado. Caso não tenha, si
     bun dev
 ```
  O servidor estará disponível em `http://localhost:3000`.
- Acesse `http://localhost:3000/api-docs` para ver a documentação da API.
+ Acesse `http://localhost:3000/docs` para ver a documentação da API.
 
 ## Estrutura do projeto
 ```bash
