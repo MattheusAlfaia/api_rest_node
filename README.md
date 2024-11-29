@@ -34,7 +34,7 @@ Antes de começar, certifique-se de ter o **Bun** instalado. Caso não tenha, si
 ```bash
     bun dev
 ```
- O servidor estará disponível em `http://localhost:3000`.
+ O servidor estará disponível em `http://localhost:3000`. <br>
  Acesse `http://localhost:3000/docs` para ver a documentação da API.
 
 ## Estrutura do projeto
